@@ -66,7 +66,7 @@ def index():
 
 @app.route("/no_content")
 def no_content():
-    return ({"message": "No content found"}, 204)
+    return '', 204
 
 @app.route("/exp")
 def index_expliit():
