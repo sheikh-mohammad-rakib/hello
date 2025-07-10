@@ -83,7 +83,7 @@ def get_data():
         else:
             return {"message": "Data is empty"}, 500
     except NameError:
-        return {"messag": "Data not found"}, 404
+        return {"message": "Data not found"}, 404
     
 @app.route("/name_search")
 def name_search():
